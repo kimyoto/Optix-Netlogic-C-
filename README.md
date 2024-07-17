@@ -2,6 +2,9 @@
 Aqui serão colocados os tutoriais de como programar em C# e exportar pro Optix via Netlogic
 ## Coisas que dá pra fazer com o Optix
 - Criar vários estilos pré definidos de interface
+- Criar objetos arrastáveis (exemplo aqui: https://github.com/FactoryTalk-Optix/FeaturesDemo2 - Tela: UI Design/Object Draggin)
+## Ideias
+- Criar gráficos via código C#, salvar o gráfico como PDF e apresentar ele no Optix com o PDF Viewer nativo do Optix
 ## Como acessar os elementos do Optix
 - https://github.com/FactoryTalk-Optix/NetLogic_CheatSheet/blob/main/pages/accessing-project-nodes.md#accessing-project-nodes
 * Mais tutoriais: https://github.com/FactoryTalk-Optix/NetLogic_CheatSheet
