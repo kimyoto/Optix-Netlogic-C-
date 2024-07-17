@@ -1,5 +1,7 @@
 # Optix Netlogic C#
-Aqui serão colocados os tutoriais de como programar em C# e exportar pro Optix via Netlogic </br>
+Aqui serão colocados os tutoriais de como programar em C# e exportar pro Optix via Netlogic
+## Coisas que dá pra fazer com o Optix
+- Criar vários estilos pré definidos de interface
 ## Como acessar os elementos do Optix
 - https://github.com/FactoryTalk-Optix/NetLogic_CheatSheet/blob/main/pages/accessing-project-nodes.md#accessing-project-nodes
 * Mais tutoriais: https://github.com/FactoryTalk-Optix/NetLogic_CheatSheet
