@@ -29,3 +29,5 @@ Aqui serão colocados os tutoriais de como programar em C# e exportar pro Optix 
 ![image](https://github.com/user-attachments/assets/b0c6d602-4c22-4f80-8315-3db767530b5b)
 ## Criar um timer via código (Periodic Task)
 ![image](https://github.com/user-attachments/assets/91ef76cf-9784-4afa-802c-b9f9ec703d66)
+## Como importar variáveis e alterar o valor delas
+![image](https://github.com/user-attachments/assets/59865ca9-7cb5-4d5a-9a08-4864818d2c91)
