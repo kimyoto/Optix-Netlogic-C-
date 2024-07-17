@@ -31,3 +31,5 @@ Aqui serão colocados os tutoriais de como programar em C# e exportar pro Optix 
 ![image](https://github.com/user-attachments/assets/91ef76cf-9784-4afa-802c-b9f9ec703d66)
 ## Como importar variáveis e alterar o valor delas
 ![image](https://github.com/user-attachments/assets/59865ca9-7cb5-4d5a-9a08-4864818d2c91)
+## Como importar um objeto com variáveis dentro delas e alterar o valor das variáveis
+![image](https://github.com/user-attachments/assets/25b59f94-ed5c-4d22-a968-70b14ce6f216)
