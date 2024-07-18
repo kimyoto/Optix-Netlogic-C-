@@ -5,8 +5,8 @@ Aqui serão colocados os tutoriais de como programar em C# e exportar pro Optix 
 - Criar objetos arrastáveis (exemplo aqui: https://github.com/FactoryTalk-Optix/FeaturesDemo2 - Tela: UI Design/Object Draggin)
 - Criar um DialogBox padrão e alterar as variáveis definidas nele via código
 ## Definições
-- `NodeID` é como se fosse o nó que possui vários elementos dentro dele (uma pasta, por exemplo)
-- `AliasNode` é como se fosse a base pra criação de um elemento (por exemplo: você tem um modelo padrão de painel pra utilizar, então ele puxa automaticamente o modelo padrão da painel)
+* Aliases ou `AliasNode` (são `NodeId` type) são referências que permitem apontar para outros objetos ou nós dentro do projeto de forma abstrata e dinâmica.
+> Um alias funciona como uma referência indireta a um objeto ou nó. Em vez de usar o caminho completo para referenciar um objeto, você usa um alias, que aponta para esse caminho.
 ## Ideias
 - Criar gráficos via código C#, salvar o gráfico como PDF e apresentar ele no Optix com o PDF Viewer nativo do Optix
 - Criar gráficos na WEB com integraçaõ a banco de dados (WebBrowser)
@@ -48,3 +48,7 @@ Dentro do NetLogic (C#) é só preencher dentro do `.Make<>` o nome do modelo do
 ![image](https://github.com/user-attachments/assets/2b8a284c-c6c9-4350-92c1-d05886231282) </br>
 
 > Também é necessário adicionar ele a algum painel para ser exibido
+## Exibir DialogBox via código
+É necessário declarar o DialogType no código e ter um painel instanciado pra ser exibido o DialogBox </br>
+
+![image](https://github.com/user-attachments/assets/4499f33f-7895-4d3f-9920-c9690fe579f9)
