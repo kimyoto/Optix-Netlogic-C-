@@ -48,7 +48,39 @@ Dentro do NetLogic (C#) é só preencher dentro do `.Make<>` o nome do modelo do
 ![image](https://github.com/user-attachments/assets/2b8a284c-c6c9-4350-92c1-d05886231282) </br>
 
 > Também é necessário adicionar ele a algum painel para ser exibido
-## Exibir DialogBox via código
-É necessário declarar o DialogType no código e ter um painel instanciado pra ser exibido o DialogBox </br>
+## Criar dinamicamente elementos (DialogBox, por exemplo) por evento MouseClick de botão criado dinamicamente (via código)
+Para poder criar objetos via código no evento de MouseClick de um botão que foi criado via código, é necessário que o painel passe o valor NodeId dele pro input argument do botão que vai criar o novo objeto.
 
-![image](https://github.com/user-attachments/assets/4499f33f-7895-4d3f-9920-c9690fe579f9)
+### Criação do painel
+É necessário adicionar `Alias` para o painel criado clicando no `+` das propriedades do objeto. </br>
+
+![image](https://github.com/user-attachments/assets/e7cfcb76-924f-465f-8d90-47fcfcfa5111)
+> O nome do Alias pode ser qualquer um.
+
+É necessário criar um link dinâmico entre o `Alias` (`NodeId`) e o atributo `NodeId` do painel. </br>
+
+![image](https://github.com/user-attachments/assets/d481ea33-cdb7-4d9b-8b2e-946c04c4c3a3)
+
+### Adicionando o botão de forma dinâmica no painel
+É necessário criar um NetLogic dentro do painel. </br>
+
+![image](https://github.com/user-attachments/assets/fd0d112c-fd99-4265-a2e5-724ec8693ec2) </br>
+
+Um dos jeitos de adicionar é esse:
+
+![image](https://github.com/user-attachments/assets/79c45a3a-c4b9-40ac-b525-56db63b16598)
+
+
+### Criação do botão
+É necessário criar um modelo padrão de botão para dentro do Project view e dentro dele criar um NetLogic. </br>
+
+No evento MouseClick, selecionar o `método` criado no NetLogic para criar o objeto e criar um link dinâmico no `Input arguments` com o atributo `NodeId` do painel a partir de seu `Alias`:</br>
+
+![image](https://github.com/user-attachments/assets/3426347d-00ab-4354-ae80-e1446e0c1e45) <br/>
+![image](https://github.com/user-attachments/assets/043a7d0b-355a-4dd4-bae9-84303b9e20b4)
+
+Configuração do NetLogic para importar o valor do painel e criar dentro dele o DialogBox: </br>
+
+![image](https://github.com/user-attachments/assets/30f25f82-a178-4324-871b-83fa89334b58) </br>
+
+> O modelo do objeto a ser criado precisa existir dentro do Optix pra funcionar
