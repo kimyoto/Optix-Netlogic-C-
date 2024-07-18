@@ -38,3 +38,13 @@ Aqui serão colocados os tutoriais de como programar em C# e exportar pro Optix 
 ![image](https://github.com/user-attachments/assets/59865ca9-7cb5-4d5a-9a08-4864818d2c91)
 ## Como importar um objeto com variáveis dentro delas e alterar o valor das variáveis
 ![image](https://github.com/user-attachments/assets/25b59f94-ed5c-4d22-a968-70b14ce6f216)
+## Como criar elementos dinamicamente (via código) com base em modelos definidos no Optix e com NetLogic
+Precisa existir o modelo no `Project view` do Optix com o evento MouseClick já selecionado para algum método dentro do NetLogic </br>
+
+![image](https://github.com/user-attachments/assets/3f49170e-4cd7-450d-8759-a6fc1dfcc052) ![image](https://github.com/user-attachments/assets/c6c91fc9-9372-447e-b816-e846058e3598) </br>
+
+Dentro do NetLogic (C#) é só preencher dentro do `.Make<>` o nome do modelo do elemento (btnStackedBarChart, por exemplo) e dar um nome pra ele: </br>
+
+![image](https://github.com/user-attachments/assets/2b8a284c-c6c9-4350-92c1-d05886231282) </br>
+
+> Também é necessário adicionar ele a algum painel para ser exibido
