@@ -4,6 +4,9 @@ Aqui serão colocados os tutoriais de como programar em C# e exportar pro Optix 
 - Criar vários estilos pré definidos de interface
 - Criar objetos arrastáveis (exemplo aqui: https://github.com/FactoryTalk-Optix/FeaturesDemo2 - Tela: UI Design/Object Draggin)
 - Criar um DialogBox padrão e alterar as variáveis definidas nele via código
+## Definições
+- `NodeID` é como se fosse o nó que possui vários elementos dentro dele (uma pasta, por exemplo)
+- `AliasNode` é como se fosse a base pra criação de um elemento (por exemplo: você tem um modelo padrão de painel pra utilizar, então ele puxa automaticamente o modelo padrão da painel)
 ## Ideias
 - Criar gráficos via código C#, salvar o gráfico como PDF e apresentar ele no Optix com o PDF Viewer nativo do Optix
 ## Como acessar os elementos do Optix
