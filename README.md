@@ -9,6 +9,7 @@ Aqui serão colocados os tutoriais de como programar em C# e exportar pro Optix 
 - `AliasNode` é como se fosse a base pra criação de um elemento (por exemplo: você tem um modelo padrão de painel pra utilizar, então ele puxa automaticamente o modelo padrão da painel)
 ## Ideias
 - Criar gráficos via código C#, salvar o gráfico como PDF e apresentar ele no Optix com o PDF Viewer nativo do Optix
+- Criar gráficos na WEB com integraçaõ a banco de dados (WebBrowser)
 ## Como acessar os elementos do Optix
 - https://github.com/FactoryTalk-Optix/NetLogic_CheatSheet/blob/main/pages/accessing-project-nodes.md#accessing-project-nodes
 * Mais tutoriais: https://github.com/FactoryTalk-Optix/NetLogic_CheatSheet
