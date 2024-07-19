@@ -84,3 +84,6 @@ Configuração do NetLogic para importar o valor do painel e criar dentro dele o
 ![image](https://github.com/user-attachments/assets/30f25f82-a178-4324-871b-83fa89334b58) </br>
 
 > O modelo do objeto a ser criado precisa existir dentro do Optix pra funcionar
+
+## Como criar um objeto com variáveis via código, preencher os valores e exibir os valores
+![image](https://github.com/user-attachments/assets/a3130820-2ba4-4847-9c35-763db91c27e2)
