@@ -89,3 +89,7 @@ Configuração do NetLogic para importar o valor do painel e criar dentro dele o
 
 ## Como criar um objeto com variáveis via código, preencher os valores e exibir os valores
 ![image](https://github.com/user-attachments/assets/a3130820-2ba4-4847-9c35-763db91c27e2)
+
+## Como obter os objetos dentro de algum elemento e acessar suas variáveis
+![image](https://github.com/user-attachments/assets/04f4f294-e679-4a76-b479-c2e33a515904)
+
