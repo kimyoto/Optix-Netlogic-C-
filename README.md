@@ -1,5 +1,5 @@
 # Optix Netlogic C#
-Aqui serão colocados os tutoriais de como programar em C# e exportar pro Optix via Netlogic
+Aqui serão colocados os tutoriais de como programar em C# e exportar pro Optix via Netlogic.
 ## Coisas que dá pra fazer com o Optix
 - Criar vários estilos pré definidos de interface
 - Criar objetos arrastáveis (exemplo aqui: https://github.com/FactoryTalk-Optix/FeaturesDemo2 - Tela: UI Design/Object Draggin)
