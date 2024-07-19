@@ -7,6 +7,8 @@ Aqui serão colocados os tutoriais de como programar em C# e exportar pro Optix 
 ## Definições
 * Aliases ou `AliasNode` (são `NodeId` type) são referências que permitem apontar para outros objetos ou nós dentro do projeto de forma abstrata e dinâmica.
 > Um alias funciona como uma referência indireta a um objeto ou nó. Em vez de usar o caminho completo para referenciar um objeto, você usa um alias, que aponta para esse caminho.
+* `BrowseName` é o nome do objeto.
+> Por exemplo, pra obter o nome de um objeto criado dinamicamente, é só escrever `NomeDoObjeto.BrowseName`
 ## Ideias
 - Criar gráficos via código C#, salvar o gráfico como PDF e apresentar ele no Optix com o PDF Viewer nativo do Optix
 - Criar gráficos na WEB com integraçaõ a banco de dados (WebBrowser)
