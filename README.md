@@ -93,3 +93,5 @@ Configuração do NetLogic para importar o valor do painel e criar dentro dele o
 ## Como obter os objetos dentro de algum elemento e acessar suas variáveis
 ![image](https://github.com/user-attachments/assets/04f4f294-e679-4a76-b479-c2e33a515904)
 
+## Como pegar o valor da seleção de uma ComboBox e fazer uma ação (switch)
+![image](https://github.com/user-attachments/assets/988c6dc7-457e-4d43-a192-23ba50f8e11c)
